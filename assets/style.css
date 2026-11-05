@@ -1,0 +1,442 @@
+/* Resume Roast AI - Custom Streamlit Theme */
+/* Dark navy background with violet/blue accents */
+
+/* === Global === */
+.stApp {
+    background-color: #0a0e1a;
+    color: #e0e0e0;
+}
+
+/* Main container */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+/* === Typography === */
+h1, h2, h3, h4, h5, h6 {
+    color: #e8eaf6 !important;
+    font-weight: 600 !important;
+}
+
+p, span, li, label {
+    color: #c5cae9;
+}
+
+/* === Header Badge === */
+.header-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #5c6bc0 0%, #7c4dff 100%);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    color: #9fa8da;
+    font-size: 1.05rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+/* === Cards === */
+.metric-card {
+    background: linear-gradient(145deg, #141829 0%, #1a1f3a 100%);
+    border: 1px solid #2a2f4a;
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(92, 107, 192, 0.15);
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #7c4dff, #448aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0.5rem 0;
+}
+
+.metric-label {
+    color: #9fa8da;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.metric-sublabel {
+    color: #7986cb;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+/* === Skill Tags === */
+.skill-tag {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 3px 4px;
+    letter-spacing: 0.3px;
+}
+
+.skill-matched {
+    background: rgba(76, 175, 80, 0.15);
+    color: #81c784;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.skill-missing {
+    background: rgba(255, 152, 0, 0.12);
+    color: #ffb74d;
+    border: 1px solid rgba(255, 152, 0, 0.25);
+}
+
+.skill-additional {
+    background: rgba(144, 164, 174, 0.12);
+    color: #b0bec5;
+    border: 1px solid rgba(144, 164, 174, 0.2);
+}
+
+/* === Category Badge === */
+.category-badge {
+    color: #7986cb;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* === Result Sections === */
+.result-section {
+    background: linear-gradient(145deg, #121627 0%, #181d35 100%);
+    border: 1px solid #252a45;
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.result-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #2a2f4a;
+}
+
+/* === Recommendation Cards === */
+.rec-card {
+    background: linear-gradient(145deg, #151a30 0%, #1c2240 100%);
+    border: 1px solid #2a3055;
+    border-left: 4px solid #7c4dff;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.2s ease;
+}
+
+.rec-card:hover {
+    border-left-color: #448aff;
+}
+
+.rec-title {
+    color: #b3b8e8;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+}
+
+.rec-explanation {
+    color: #9fa8da;
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+}
+
+.rec-action {
+    color: #81d4fa;
+    font-size: 0.85rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* === Roast Section === */
+.roast-card {
+    background: linear-gradient(145deg, #1a1225 0%, #241835 100%);
+    border: 1px solid #3a2555;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #d1c4e9;
+}
+
+/* === Strength/Weakness Cards === */
+.strength-card {
+    background: rgba(76, 175, 80, 0.06);
+    border: 1px solid rgba(76, 175, 80, 0.2);
+    border-left: 4px solid #4caf50;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.6rem;
+}
+
+.strength-card .card-title {
+    color: #81c784;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.strength-card .card-detail {
+    color: #a5d6a7;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.weakness-card {
+    background: rgba(255, 152, 0, 0.06);
+    border: 1px solid rgba(255, 152, 0, 0.2);
+    border-left: 4px solid #ff9800;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.6rem;
+}
+
+.weakness-card .card-title {
+    color: #ffb74d;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.weakness-card .card-detail {
+    color: #ffcc80;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+/* === Empty State === */
+.empty-state {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: #7986cb;
+}
+
+.empty-state-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.empty-state-text {
+    font-size: 1.1rem;
+    color: #7986cb;
+    margin-bottom: 0.5rem;
+}
+
+.empty-state-subtext {
+    font-size: 0.85rem;
+    color: #5c6bc0;
+}
+
+/* === Buttons === */
+.stButton > button {
+    background: linear-gradient(135deg, #5c6bc0, #7c4dff) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 0.6rem 2rem !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(124, 77, 255, 0.3) !important;
+    width: 100% !important;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #7c4dff, #651fff) !important;
+    box-shadow: 0 6px 20px rgba(124, 77, 255, 0.45) !important;
+    transform: translateY(-1px) !important;
+}
+
+.stButton > button:active {
+    transform: translateY(0) !important;
+}
+
+.stButton > button:disabled {
+    background: linear-gradient(135deg, #37474f, #455a64) !important;
+    box-shadow: none !important;
+    opacity: 0.6 !important;
+}
+
+/* === File Uploader === */
+.stFileUploader {
+    background: #141829 !important;
+    border: 2px dashed #2a3055 !important;
+    border-radius: 12px !important;
+    padding: 1rem !important;
+}
+
+[data-testid="stFileUploader"] {
+    background: #141829;
+    border-radius: 12px;
+}
+
+[data-testid="stFileUploader"] section {
+    background: #141829;
+    border: 2px dashed #2a3055;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/* === Text Area === */
+.stTextArea textarea {
+    background-color: #141829 !important;
+    border: 1px solid #2a3055 !important;
+    border-radius: 10px !important;
+    color: #c5cae9 !important;
+    font-size: 0.9rem !important;
+    padding: 0.75rem !important;
+}
+
+.stTextArea textarea:focus {
+    border-color: #5c6bc0 !important;
+    box-shadow: 0 0 0 2px rgba(92, 107, 192, 0.2) !important;
+}
+
+/* === Sidebar === */
+section[data-testid="stSidebar"] {
+    background-color: #0d1117;
+    border-right: 1px solid #1a1f35;
+}
+
+section[data-testid="stSidebar"] .stMarkdown {
+    color: #9fa8da;
+}
+
+/* === Expander === */
+.streamlit-expanderHeader {
+    background-color: #141829 !important;
+    border-radius: 10px !important;
+    color: #b3b8e8 !important;
+}
+
+/* === Download Button === */
+.stDownloadButton > button {
+    background: linear-gradient(135deg, #00897b, #26a69a) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 4px 12px rgba(0, 137, 123, 0.3) !important;
+    width: 100% !important;
+}
+
+.stDownloadButton > button:hover {
+    background: linear-gradient(135deg, #00796b, #00897b) !important;
+    box-shadow: 0 6px 18px rgba(0, 137, 123, 0.45) !important;
+}
+
+/* === Tabs === */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 4px;
+    background-color: #141829;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px;
+    color: #9fa8da;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1a2040 !important;
+    color: #b3b8e8 !important;
+}
+
+/* === Divider === */
+hr {
+    border-color: #1a2040 !important;
+    margin: 1.5rem 0 !important;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0e1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2a3055;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3a4070;
+}
+
+/* === Chart containers === */
+.js-plotly-plot {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* === Spinner === */
+.stSpinner > div {
+    border-top-color: #7c4dff !important;
+}
+
+/* === Progress bar === */
+.stProgress > div > div > div {
+    background: linear-gradient(135deg, #5c6bc0, #7c4dff) !important;
+}
+
+/* === Char counter === */
+.char-counter {
+    color: #5c6bc0;
+    font-size: 0.75rem;
+    text-align: right;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* === Input panel === */
+.input-panel {
+    background: linear-gradient(145deg, #0f1322 0%, #141829 100%);
+    border: 1px solid #1e2340;
+    border-radius: 16px;
+    padding: 1.5rem;
+}
+
+/* === Plotly dark theme override === */
+.stPlotlyChart {
+    border-radius: 12px;
+    overflow: hidden;
+}

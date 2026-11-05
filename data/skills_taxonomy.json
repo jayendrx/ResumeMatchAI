@@ -1,0 +1,230 @@
+{
+  "Programming": {
+    "skills": [
+      "Python", "Java", "C++", "C#", "JavaScript", "TypeScript", "SQL",
+      "R", "Go", "Rust", "Kotlin", "Swift", "Ruby", "PHP", "Scala",
+      "MATLAB", "Perl", "Shell", "Bash", "PowerShell", "Lua", "Dart",
+      "Objective-C", "Assembly", "Haskell", "Elixir", "Clojure", "Julia"
+    ],
+    "aliases": {
+      "JS": "JavaScript",
+      "TS": "TypeScript",
+      "C Sharp": "C#",
+      "Cplusplus": "C++",
+      "Golang": "Go",
+      "Python3": "Python",
+      "Python 3": "Python"
+    }
+  },
+  "Machine Learning": {
+    "skills": [
+      "Machine Learning", "Deep Learning", "Natural Language Processing",
+      "Computer Vision", "TensorFlow", "PyTorch", "Scikit-learn",
+      "Keras", "XGBoost", "LightGBM", "Random Forest",
+      "Neural Networks", "Reinforcement Learning", "Transfer Learning",
+      "Feature Engineering", "Model Evaluation", "Hyperparameter Tuning",
+      "Generative AI", "Large Language Models", "Transformers",
+      "Hugging Face", "BERT", "GPT", "Stable Diffusion",
+      "Convolutional Neural Networks", "Recurrent Neural Networks",
+      "LSTM", "GAN", "Attention Mechanism", "Gradient Boosting",
+      "Support Vector Machine", "Naive Bayes", "K-Means",
+      "Principal Component Analysis", "Dimensionality Reduction",
+      "Ensemble Methods", "Time Series Analysis", "Anomaly Detection",
+      "Recommendation Systems", "Object Detection", "Image Segmentation",
+      "Sentiment Analysis", "Text Classification", "Named Entity Recognition",
+      "Speech Recognition", "MLOps", "Model Deployment"
+    ],
+    "aliases": {
+      "ML": "Machine Learning",
+      "DL": "Deep Learning",
+      "NLP": "Natural Language Processing",
+      "CV": "Computer Vision",
+      "CNN": "Convolutional Neural Networks",
+      "RNN": "Recurrent Neural Networks",
+      "SVM": "Support Vector Machine",
+      "PCA": "Principal Component Analysis",
+      "LLM": "Large Language Models",
+      "LLMs": "Large Language Models",
+      "GenAI": "Generative AI",
+      "GANs": "GAN",
+      "NER": "Named Entity Recognition",
+      "sklearn": "Scikit-learn",
+      "sk-learn": "Scikit-learn",
+      "scikit learn": "Scikit-learn"
+    }
+  },
+  "Data": {
+    "skills": [
+      "Data Analysis", "Pandas", "NumPy", "Data Visualization",
+      "Statistics", "Matplotlib", "Seaborn", "Plotly",
+      "Data Cleaning", "Data Wrangling", "ETL", "Data Pipelines",
+      "Apache Spark", "Hadoop", "Hive", "Kafka",
+      "Data Warehousing", "Data Modeling", "Data Engineering",
+      "Big Data", "Tableau", "Power BI", "Looker",
+      "Jupyter", "SAS", "SPSS", "Excel",
+      "A/B Testing", "Hypothesis Testing", "Bayesian Statistics",
+      "Regression Analysis", "Probability", "Statistical Modeling",
+      "Data Mining", "Web Scraping", "Beautiful Soup", "Scrapy",
+      "Airflow", "dbt", "Snowflake", "Redshift",
+      "BigQuery", "Databricks", "Delta Lake"
+    ],
+    "aliases": {
+      "EDA": "Data Analysis",
+      "Exploratory Data Analysis": "Data Analysis",
+      "Apache Hadoop": "Hadoop",
+      "Apache Kafka": "Kafka",
+      "Apache Hive": "Hive",
+      "Apache Airflow": "Airflow",
+      "Google BigQuery": "BigQuery",
+      "Amazon Redshift": "Redshift",
+      "PBI": "Power BI",
+      "Jupyter Notebook": "Jupyter",
+      "Jupyter Notebooks": "Jupyter"
+    }
+  },
+  "Databases": {
+    "skills": [
+      "MySQL", "PostgreSQL", "MongoDB", "Redis", "Cassandra",
+      "SQLite", "Oracle", "SQL Server", "DynamoDB", "Firebase",
+      "Elasticsearch", "Neo4j", "CouchDB", "MariaDB",
+      "InfluxDB", "TimescaleDB", "Supabase", "Prisma",
+      "Database Design", "Database Administration", "NoSQL"
+    ],
+    "aliases": {
+      "Postgres": "PostgreSQL",
+      "Mongo": "MongoDB",
+      "MSSQL": "SQL Server",
+      "MS SQL": "SQL Server",
+      "Amazon DynamoDB": "DynamoDB",
+      "AWS DynamoDB": "DynamoDB",
+      "ElasticSearch": "Elasticsearch"
+    }
+  },
+  "Cloud and DevOps": {
+    "skills": [
+      "AWS", "Azure", "Google Cloud", "Docker", "Kubernetes",
+      "CI/CD", "Git", "GitHub", "GitLab", "Terraform",
+      "Ansible", "Jenkins", "Linux", "Nginx", "Apache",
+      "Serverless", "CloudFormation", "Helm", "Prometheus",
+      "Grafana", "ELK Stack", "Microservices", "Load Balancing",
+      "Auto Scaling", "Infrastructure as Code", "Site Reliability Engineering",
+      "Monitoring", "Logging", "Containerization", "Orchestration",
+      "GitHub Actions", "CircleCI", "Travis CI", "ArgoCD",
+      "Pulumi", "Vagrant", "VMware"
+    ],
+    "aliases": {
+      "Amazon Web Services": "AWS",
+      "Microsoft Azure": "Azure",
+      "GCP": "Google Cloud",
+      "Google Cloud Platform": "Google Cloud",
+      "K8s": "Kubernetes",
+      "k8s": "Kubernetes",
+      "IaC": "Infrastructure as Code",
+      "SRE": "Site Reliability Engineering",
+      "GH Actions": "GitHub Actions",
+      "Version Control": "Git"
+    }
+  },
+  "Web Development": {
+    "skills": [
+      "React", "Node.js", "HTML", "CSS", "REST APIs",
+      "Angular", "Vue.js", "Next.js", "Express.js", "Django",
+      "Flask", "FastAPI", "Spring Boot", "GraphQL",
+      "Webpack", "Vite", "Tailwind CSS", "Bootstrap",
+      "jQuery", "Redux", "Svelte", "Nuxt.js", "Gatsby",
+      "WebSocket", "OAuth", "JWT", "SASS", "LESS",
+      "Responsive Design", "Progressive Web Apps",
+      "Single Page Applications", "Server Side Rendering",
+      "Web Accessibility", "SEO", "Web Security",
+      "ASP.NET", "Ruby on Rails", "Laravel"
+    ],
+    "aliases": {
+      "ReactJS": "React",
+      "React.js": "React",
+      "NodeJS": "Node.js",
+      "VueJS": "Vue.js",
+      "Vue": "Vue.js",
+      "NextJS": "Next.js",
+      "ExpressJS": "Express.js",
+      "AngularJS": "Angular",
+      "RESTful APIs": "REST APIs",
+      "RESTful": "REST APIs",
+      "PWA": "Progressive Web Apps",
+      "SPA": "Single Page Applications",
+      "SSR": "Server Side Rendering",
+      "TailwindCSS": "Tailwind CSS",
+      "RoR": "Ruby on Rails",
+      "Rails": "Ruby on Rails"
+    }
+  },
+  "Soft Skills": {
+    "skills": [
+      "Communication", "Leadership", "Teamwork", "Problem Solving",
+      "Critical Thinking", "Project Management", "Agile", "Scrum",
+      "Time Management", "Collaboration", "Mentoring", "Presentation",
+      "Stakeholder Management", "Strategic Planning", "Decision Making",
+      "Conflict Resolution", "Negotiation", "Creativity",
+      "Adaptability", "Analytical Thinking", "Attention to Detail",
+      "Cross-functional Collaboration", "Client Relations",
+      "Technical Writing", "Documentation"
+    ],
+    "aliases": {
+      "PM": "Project Management",
+      "Agile Methodology": "Agile",
+      "Agile Methodologies": "Agile",
+      "Scrum Master": "Scrum",
+      "Team Player": "Teamwork",
+      "Team Work": "Teamwork",
+      "Written Communication": "Communication",
+      "Verbal Communication": "Communication",
+      "Interpersonal Skills": "Communication"
+    }
+  },
+  "Security": {
+    "skills": [
+      "Cybersecurity", "Penetration Testing", "Encryption",
+      "Network Security", "Application Security", "OWASP",
+      "Vulnerability Assessment", "Security Auditing", "Compliance",
+      "Identity Management", "Access Control", "Firewall",
+      "Intrusion Detection", "Incident Response", "SOC",
+      "SIEM", "Zero Trust", "PKI"
+    ],
+    "aliases": {
+      "InfoSec": "Cybersecurity",
+      "Information Security": "Cybersecurity",
+      "Pen Testing": "Penetration Testing",
+      "AppSec": "Application Security",
+      "NetSec": "Network Security",
+      "IAM": "Identity Management"
+    }
+  },
+  "Mobile Development": {
+    "skills": [
+      "Android", "iOS", "React Native", "Flutter",
+      "SwiftUI", "Jetpack Compose", "Xamarin",
+      "Mobile UI Design", "App Store Optimization",
+      "Push Notifications", "Mobile Testing"
+    ],
+    "aliases": {
+      "Android Development": "Android",
+      "iOS Development": "iOS",
+      "RN": "React Native",
+      "ASO": "App Store Optimization"
+    }
+  },
+  "Testing": {
+    "skills": [
+      "Unit Testing", "Integration Testing", "End-to-End Testing",
+      "Test Driven Development", "Selenium", "Jest", "PyTest",
+      "Cypress", "JUnit", "Mocha", "Playwright",
+      "Performance Testing", "Load Testing", "QA",
+      "Automated Testing", "Manual Testing", "Regression Testing"
+    ],
+    "aliases": {
+      "TDD": "Test Driven Development",
+      "E2E Testing": "End-to-End Testing",
+      "Quality Assurance": "QA",
+      "Test Automation": "Automated Testing"
+    }
+  }
+}
